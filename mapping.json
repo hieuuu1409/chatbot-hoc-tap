@@ -1,0 +1,198 @@
+{
+  "sơ đồ nguyên lý mạch khởi động từ đơn": {
+    "text": "Đây là sơ đồ nguyên lý của mạch khởi động từ đơn.",
+    "image": "sodonguyenlydon.png"
+  },
+  "sơ đồ nguyên lý mạch khởi động từ kép": {
+    "text": "Đây là sơ đồ nguyên lý của mạch khởi động từ kép.",
+    "image": "sodonguyenlykep.png"
+  },
+  "sơ đồ nguyên lý mạch trình tự 2 động cơ": {
+    "text": "Đây là sơ đồ nguyên lý của mạch điều khiển tuần tự 2 động cơ.",
+    "image": "sodonguyenly2bom.png"
+  },
+  "sơ đồ nguyên lý": {
+    "text": "Đây là sơ đồ nguyên lý của cả 3 mạch mà bạn yêu cầu,lần lượt theo thứ tự\n+ Mạch khởi động từ đơn\n+ Mạch khởi động từ kép\n+ Mạch khởi động trình tự 2 động cơ",
+    "image": [
+      "sodonguyenlydon.png",
+      "sodonguyenlykep.png",
+      "sodonguyenly2bom.png"
+    ]
+  },
+  "thiết bị mạch khởi động từ đơn": {
+    "text": "Các thiết bị gồm: Aptomat, nút nhấn, rơ-le, khởi động từ,...",
+    "image": "thietbi_don.png"
+  },
+  "thiết bị mạch khởi động từ kép": {
+    "text": "Các thiết bị gồm: Aptomat, nút nhấn, khởi động từ,...",
+    "image": "thietbi_kep.png"
+  },
+  "thiết bị mạch trình tự 2 động cơ": {
+    "text": "Thiết bị gồm: Rơ-le thời gian, nút nhấn, khởi động từ, động cơ,...",
+    "image": "thietbi_2bom.png"
+  },
+  "thiết bị": {
+    "text": "Các thiết bị của 3 mạch gồm",
+    "image": [
+      "thietbi_don.png",
+      "thietbi_kep.png",
+      "thietbi_2bom.png"
+    ]
+  },
+  "mục tiêu bài học mạch khởi động từ đơn": {
+  "text": "Mục tiêu bài học của mạch khởi động từ đơn\nSau khi học xong bài này người học có khả năng:\n\n- Kiến thức:\n+ Trình bày được yêu cầu điều khiển, nguyên lý làm việc, sơ đồ đi dây và trình tự lắp mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian.\n+ Trình bày được một số sai hỏng thường gặp, nguyên nhân và biện pháp phòng tránh.\n\n- Kỹ năng:\nLắp đặt và vận hành được mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian đúng trình tự, đảm bảo yêu cầu kỹ thuật, trong thời gian quy định.\n\n- Năng lực tự chủ và trách nhiệm:\n+ Tự tin lắp mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian theo các yêu cầu khác nhau trong thực tiễn nghề nghiệp.\n+ Có khả năng làm việc độc lập, làm việc nhóm, tự chịu trách nhiệm với công việc, đảm bảo an toàn lao động và vệ sinh công nghiệp."
+  },
+  "mục tiêu bài học mạch khởi động từ kép": {
+  "text": "Mục tiêu bài học của mạch khởi động từ kép\nSau khi học xong bài này người học có khả năng:\n\n- Kiến thức:\n+ Trình bày được yêu cầu điều khiển, nguyên lý làm việc, sơ đồ đi dây và trình tự lắp mạch điện đảo chiều quay động cơ xoay chiều ba pha bằng khởi động từ kép.\n+ Trình bày được một số sai hỏng thường gặp, nguyên nhân và biện pháp phòng tránh.\n\n- Kỹ năng:\nLắp đặt và vận hành được mạch điện đảo chiều quay động cơ xoay chiều ba pha bằng khởi động từ kép đúng trình tự, đảm bảo yêu cầu kỹ thuật, trong thời gian quy định.\n\n- Năng lực tự chủ và trách nhiệm:\n+ Tự tin lắp mạch điện đảo chiều quay động cơ xoay chiều ba pha bằng khởi động từ kép theo các yêu cầu khác nhau trong thực tiễn nghề nghiệp.\n+ Có khả năng làm việc độc lập, làm việc nhóm, tự chịu trách nhiệm với công việc, đảm bảo an toàn lao động và vệ sinh công nghiệp."
+  },
+  "mục tiêu bài học mạch trình tự 2 động cơ": {
+  "text": "Mục tiêu bài học của mạch trình tự 2 động cơ\nSau khi học xong bài này người học có khả năng:\n\n- Kiến thức:\n+ Trình bày được yêu cầu điều khiển, nguyên lý làm việc, sơ đồ đi dây và trình tự lắp mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian.\n+ Trình bày được một số sai hỏng thường gặp, nguyên nhân và biện pháp phòng tránh.\n\n- Kỹ năng:\nLắp đặt và vận hành được mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian đúng trình tự, đảm bảo yêu cầu kỹ thuật, trong thời gian quy định.\n\n- Năng lực tự chủ và trách nhiệm:\n+ Tự tin lắp mạch điều khiển tuần tự hai máy bơm ba pha dùng rơ le thời gian theo các yêu cầu khác nhau trong thực tiễn nghề nghiệp.\n+ Có khả năng làm việc độc lập, làm việc nhóm, tự chịu trách nhiệm với công việc, đảm bảo an toàn lao động và vệ sinh công nghiệp."
+  },
+  "mục tiêu bài học": {
+  "text": "Bạn có thể hỏi rõ mục tiêu bài học của mạch nào được không, rồi mình sẽ giúp bạn"
+  },
+  "nguyên lý làm việc mạch khởi động từ đơn": {
+  "text": "Nguyên lý làm việc của mạch khởi động từ đơn:\n\n- Quá trình mở máy: Cấp nguồn 3 pha cho mạch điện, đóng aptomat CB1, ấn nút M(23-24), cuộn hút công tắc tơ K(A1-A2) có điện. Các tiếp điểm ở mạch động lực K đóng lại, cấp điện cho động cơ ĐC làm việc. Đồng thời, tiếp điểm K(43-44) đóng lại để duy trì điện áp cho cuộn hút công tắc tơ K(A1-A2).\n\n- Quá trình dừng máy: Ấn nút D(11-12), cuộn hút công tắc tơ K(A1-A2) mất điện, các tiếp điểm K, động cơ ĐC dừng hoạt động."
+  },
+  "nguyên lý làm việc mạch khởi động từ kép": {
+  "text": "Nguyên lý làm việc của mạch khởi động từ kép:\n\n+ Mở máy theo chiều thuận:\nĐóng áptômát AT, ấn nút MT (23-24), cuộn hút công tắc tơ KT(A1-A2) có điện, đóng các cặp tiếp điểm KT ở mạch động lực và duy trì hoạt động của mạch qua tiếp điểm KT (43-44) ở mạch điều khiển, động cơ ĐC quay theo chiều thuận.\n\n+ Dừng máy:\nẤn nút D(11-12), cuộn hút công tắc tơ KT(A1-A2) mất điện, các tiếp điểm KT ở mạch động lực và mạch điều khiển mở ra, động cơ ĐC ngừng hoạt động.\n\n+ Đảo chiều quay động cơ:\nẤn nút MN(23-24), cuộn hút công tắc tơ KN(A1-A2) có điện, đóng các cặp tiếp điểm KN ở mạch động lực thực hiện đảo chiều quay động cơ ĐC bằng cách đảo 2 trong 3 pha ở mạch động lực. Đồng thời, duy trì hoạt động của cuộn hút KN(A1-A2) qua tiếp điểm KN(43-44) ở mạch điều khiển."
+  },
+  "nguyên lý làm việc mạch trình tự 2 động cơ": {
+  "text": "Nguyên lý làm việc của mạch trình tự 2 động cơ:\n\n+ Đóng aptomat CB1 và CB2 để chuẩn bị cấp nguồn cho mạch động lực và mạch điều khiển.\n\n+ Mở máy:\nẤn M(23-24), cuộn hút công tắc tơ K1(A1-A2), Rth(2-7) có điện, các tiếp điểm K1 ở mạch động lực đóng lại cấp điện cho động cơ 1 làm việc. Tiếp điểm K1(43-44) đóng lại để duy trì điện áp cho công tắc tơ K1.\n\nSau một thời gian (đúng bằng thời gian đặt của Rth), tiếp điểm Rth(8-6) đóng lại, cuộn hút công tắc tơ K2(A1-A2) có điện, đóng tiếp điểm K2 ở mạch động lực, động cơ 2 làm việc. Lúc này cả 2 động cơ đều hoạt động.\n\n+ Dừng máy:\nẤn D(11-12), cuộn hút công tắc tơ K1 và K2 mất điện, các tiếp điểm K1, K2 ở mạch động lực mở ra, máy bơm MB1, MB2 dừng hoạt động."
+  },
+  "nguyên lý làm việc": {
+    "text": "Bạn có thể hỏi rõ hơn về nguyên lý làm việc của bài học nào không?\n Mạch khởi động từ đơn, kép hay mạch trình tự 2 động cơ?"
+  },
+  "các bước lắp đặt mạch khởi động từ đơn": {
+    "text": "Đây là các bước lắp đặt mạch khởi động từ đơn",
+    "image": "cacbuoclapdatdon.png"
+  },
+  "các bước lắp đặt mạch khởi động từ kép": {
+    "text": "Đây là các bước lắp đặt mạch khởi động từ kép",
+    "image": "cacbuoclapdatkep.png"
+  },
+  "các bước lắp đặt mạch trình tự 2 động cơ": {
+    "text": "Đây là các bước lắp đặt mạch trình tự 2 động cơ",
+    "image": "cacbuoclapdat2bom.png"
+  },
+  "hư hỏng thường gặp mạch khởi động từ đơn": {
+    "text": "Các hư hỏng thường gặp trong mạch khởi động từ đơn như: Không khởi động được, động cơ đang quay thì dừng lại,...",
+    "image": "hongdon.png"
+  },
+  "hư hỏng thường gặp mạch khởi động từ kép": {
+    "text": "Các hư hỏng thường gặp mạch trong khởi động từ kép như: Động cơ có tiếng lạ, mạch không đảo chiều được,...",
+    "image": "hongkep.png"
+  },
+  "hư hỏng thường gặp mạch trình tự 2 động cơ": {
+    "text": "Các hư hỏng thường gặp trong mạch trình tự 2 động cơ như: Động cơ không chạy,...",
+    "image": "hong2bom.png"
+  },
+  "hư hỏng thường gặp": {
+    "text": "Đây là các hư hỏng thường gặp ở 3 mạch",
+    "image": [
+      "hongdon.png",
+      "hongkep.png",
+      "hong2bom.png"
+    ]
+  },
+  "sơ đồ mạch đơn": "sơ đồ nguyên lý mạch khởi động từ đơn",
+  "sơ đồ nguyên lý mạch đơn": "sơ đồ nguyên lý mạch khởi động từ đơn",
+  "sơ đồ khởi động từ đơn": "sơ đồ nguyên lý mạch khởi động từ đơn",
+  "mạch khởi động từ đơn nguyên lý": "sơ đồ nguyên lý mạch khởi động từ đơn",
+
+  "sơ đồ mạch kép": "sơ đồ nguyên lý mạch khởi động từ kép",
+  "sơ đồ nguyên lý mạch kép": "sơ đồ nguyên lý mạch khởi động từ kép",
+  "sơ đồ khởi động từ kép": "sơ đồ nguyên lý mạch khởi động từ kép",
+  "mạch khởi động từ kép nguyên lý": "sơ đồ nguyên lý mạch khởi động từ kép",
+
+  "sơ đồ mạch 2 động cơ": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ nguyên lý mạch trình tự": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ nguyên lý mạch 2 động cơ": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ tuần tự 2 động cơ": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+
+  "thiết bị mạch đơn": "thiết bị mạch khởi động từ đơn",
+  "danh sách thiết bị mạch đơn": "thiết bị mạch khởi động từ đơn",
+  "thiết bị sử dụng mạch đơn": "thiết bị mạch khởi động từ đơn",
+
+  "thiết bị mạch kép": "thiết bị mạch khởi động từ kép",
+  "danh sách thiết bị mạch kép": "thiết bị mạch khởi động từ kép",
+  "thiết bị sử dụng mạch kép": "thiết bị mạch khởi động từ kép",
+
+  "thiết bị mạch 2 động cơ": "thiết bị mạch trình tự 2 động cơ",
+  "thiết bị tuần tự 2 động cơ": "thiết bị mạch trình tự 2 động cơ",
+  "danh sách thiết bị mạch trình tự": "thiết bị mạch trình tự 2 động cơ",
+
+  "mục tiêu mạch đơn": "mục tiêu bài học mạch khởi động từ đơn",
+  "mục tiêu bài học mạch đơn": "mục tiêu bài học mạch khởi động từ đơn",
+  "mục tiêu học tập mạch khởi động từ đơn": "mục tiêu bài học mạch khởi động từ đơn",
+
+  "mục tiêu mạch kép": "mục tiêu bài học mạch khởi động từ kép",
+  "mục tiêu bài học mạch kép": "mục tiêu bài học mạch khởi động từ kép",
+  "mục tiêu học tập mạch khởi động từ kép": "mục tiêu bài học mạch khởi động từ kép",
+
+  "mục tiêu mạch 2 động cơ": "mục tiêu bài học mạch trình tự 2 động cơ",
+  "mục tiêu học tập mạch 2 động cơ": "mục tiêu bài học mạch trình tự 2 động cơ",
+  "mục tiêu bài học mạch trình tự": "mục tiêu bài học mạch trình tự 2 động cơ",
+
+  "nguyên lý mạch đơn": "nguyên lý làm việc mạch khởi động từ đơn",
+  "nguyên lý hoạt động mạch đơn": "nguyên lý làm việc mạch khởi động từ đơn",
+  "mạch đơn hoạt động như thế nào": "nguyên lý làm việc mạch khởi động từ đơn",
+
+  "nguyên lý mạch kép": "nguyên lý làm việc mạch khởi động từ kép",
+  "nguyên lý hoạt động mạch kép": "nguyên lý làm việc mạch khởi động từ kép",
+  "mạch kép hoạt động như thế nào": "nguyên lý làm việc mạch khởi động từ kép",
+
+  "nguyên lý mạch 2 động cơ": "nguyên lý làm việc mạch trình tự 2 động cơ",
+  "nguyên lý hoạt động mạch trình tự": "nguyên lý làm việc mạch trình tự 2 động cơ",
+  "mạch trình tự hoạt động như thế nào": "nguyên lý làm việc mạch trình tự 2 động cơ",
+
+  "quy trình lắp đặt mạch đơn": "các bước lắp đặt mạch khởi động từ đơn",
+  "cách lắp mạch đơn": "các bước lắp đặt mạch khởi động từ đơn",
+  "lắp đặt mạch đơn như thế nào": "các bước lắp đặt mạch khởi động từ đơn",
+
+  "quy trình lắp đặt mạch kép": "các bước lắp đặt mạch khởi động từ kép",
+  "cách lắp mạch kép": "các bước lắp đặt mạch khởi động từ kép",
+  "lắp đặt mạch kép như thế nào": "các bước lắp đặt mạch khởi động từ kép",
+
+  "quy trình lắp đặt mạch 2 động cơ": "các bước lắp đặt mạch trình tự 2 động cơ",
+  "cách lắp mạch 2 động cơ": "các bước lắp đặt mạch trình tự 2 động cơ",
+  "lắp đặt mạch tuần tự như thế nào": "các bước lắp đặt mạch trình tự 2 động cơ",
+
+  "hư hỏng mạch đơn": "hư hỏng thường gặp mạch khởi động từ đơn",
+  "lỗi thường gặp mạch đơn": "hư hỏng thường gặp mạch khởi động từ đơn",
+
+  "hư hỏng mạch kép": "hư hỏng thường gặp mạch khởi động từ kép",
+  "lỗi thường gặp mạch kép": "hư hỏng thường gặp mạch khởi động từ kép",
+
+  "hư hỏng mạch 2 động cơ": "hư hỏng thường gặp mạch trình tự 2 động cơ",
+  "lỗi thường gặp mạch tuần tự": "hư hỏng thường gặp mạch trình tự 2 động cơ",
+
+  "các lỗi hay gặp": "hư hỏng thường gặp",
+  "lỗi thường gặp": "hư hỏng thường gặp",
+  "các hỏng hóc của 3 mạch": "hư hỏng thường gặp",
+
+  "sơ đồ mạch điều khiển tuần tự hai máy bơm": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ nguyên lý mạch tuần tự hai máy bơm": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ mạch bơm dùng rơ le thời gian": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+  "sơ đồ nguyên lý mạch điều khiển hai máy bơm ba pha": "sơ đồ nguyên lý mạch trình tự 2 động cơ",
+
+  "thiết bị mạch điều khiển tuần tự hai máy bơm": "thiết bị mạch trình tự 2 động cơ",
+  "thiết bị mạch dùng rơ le thời gian": "thiết bị mạch trình tự 2 động cơ",
+  "thiết bị mạch điều khiển hai bơm ba pha": "thiết bị mạch trình tự 2 động cơ",
+
+  "mục tiêu mạch điều khiển tuần tự hai máy bơm": "mục tiêu bài học mạch trình tự 2 động cơ",
+  "mục tiêu bài học mạch tuần tự hai máy bơm ba pha": "mục tiêu bài học mạch trình tự 2 động cơ",
+  "mục tiêu mạch dùng rơ le thời gian": "mục tiêu bài học mạch trình tự 2 động cơ",
+
+  "nguyên lý mạch điều khiển tuần tự hai máy bơm": "nguyên lý làm việc mạch trình tự 2 động cơ",
+  "nguyên lý hoạt động mạch hai bơm ba pha dùng rơ le thời gian": "nguyên lý làm việc mạch trình tự 2 động cơ",
+  "nguyên lý làm việc mạch điều khiển hai máy bơm": "nguyên lý làm việc mạch trình tự 2 động cơ",
+
+  "cách lắp mạch điều khiển tuần tự hai máy bơm": "các bước lắp đặt mạch trình tự 2 động cơ",
+  "các bước lắp đặt mạch hai máy bơm ba pha": "các bước lắp đặt mạch trình tự 2 động cơ",
+  "quy trình lắp đặt mạch dùng rơ le thời gian": "các bước lắp đặt mạch trình tự 2 động cơ",
+
+  "hư hỏng mạch điều khiển tuần tự hai máy bơm": "hư hỏng thường gặp mạch trình tự 2 động cơ",
+  "lỗi thường gặp mạch điều khiển hai máy bơm ba pha": "hư hỏng thường gặp mạch trình tự 2 động cơ",
+  "hỏng hóc mạch dùng rơ le thời gian": "hư hỏng thường gặp mạch trình tự 2 động cơ"
+}
