@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,7 +76,7 @@
             document.getElementById("loading").style.display = "block";
         }
 
-        function typeAnswer(answerText) {
+        function typeAnswerParts(parts) {
             const element = document.getElementById("answer-text");
             const followUps = [
                 "📌 Bạn còn cần mình hỗ trợ gì nữa không?",
@@ -85,26 +86,21 @@
             const followUp = followUps[Math.floor(Math.random() * followUps.length)];
 
             let i = 0;
-            const speed = 12;
-
-            function typeWriter() {
-                if (i < answerText.length) {
-                    const char = answerText.charAt(i);
-                    if (char === '\n') {
-                        element.innerHTML += '<br>';
-                    } else {
-                        element.innerHTML += char;
-                    }
+            function showPart() {
+                if (i < parts.length) {
+                    const div = document.createElement("div");
+                    div.innerHTML = parts[i];
+                    element.appendChild(div);
                     i++;
-                    setTimeout(typeWriter, speed);
+                    setTimeout(showPart, 400);
                 } else {
-                    setTimeout(() => {
-                        element.innerHTML += `<br><br><em>${followUp}</em>`;
-                    }, 300);
+                    const em = document.createElement("em");
+                    em.innerText = followUp;
+                    element.appendChild(em);
                 }
             }
 
-            typeWriter();
+            showPart();
         }
     </script>
 </head>
@@ -118,14 +114,14 @@
 
         <div id="loading">Đang trả lời...</div>
 
-        {% if answer_text %}
+        {% if answer_parts %}
             <div class="answer-text">
                 <h3>Trả lời:</h3>
                 <div id="answer-text"></div>
                 <script>
                     document.getElementById("loading").style.display = "none";
-                    const answerText = {{ answer_text|tojson | safe }};
-                    typeAnswer(answerText);
+                    const answerParts = {{ answer_parts | tojson | safe }};
+                    typeAnswerParts(answerParts);
                 </script>
             </div>
         {% endif %}
