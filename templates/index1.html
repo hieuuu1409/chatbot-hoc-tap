@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hỏi đáp học tập</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: url("{{ url_for('static', filename='images/bacthanglong.jpg') }}") no-repeat center center;
+            background-size: cover;
+            position: relative;
+            overflow-y: auto;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            position: relative;
+            z-index: 1;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 8px;
+        }
+
+        input[type="submit"],
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+
+        .answer-text {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            text-align: left;
+        }
+
+        #loading {
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
+            display: none;
+        }
+    </style>
+
+    <script>
+        function showLoading() {
+            document.getElementById("loading").style.display = "block";
+        }
+
+        function typeAnswerParts(parts) {
+            const element = document.getElementById("answer-text");
+            const followUps = [
+                "📌 Bạn còn cần mình hỗ trợ gì nữa không?",
+                "💬 Có câu nào khác bạn muốn hỏi không?",
+                "🤔 Mình có thể giúp thêm gì cho bạn không?"
+            ];
+            const followUp = followUps[Math.floor(Math.random() * followUps.length)];
+
+            let i = 0;
+            function showPart() {
+                if (i < parts.length) {
+                    const div = document.createElement("div");
+                    div.innerHTML = parts[i];
+                    element.appendChild(div);
+                    i++;
+                    setTimeout(showPart, 400);
+                } else {
+                    const em = document.createElement("em");
+                    em.innerText = followUp;
+                    element.appendChild(em);
+                }
+            }
+
+            showPart();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>ChatBot Hỗ Trợ Học Tập</h2>
+        <form method="POST" onsubmit="showLoading()">
+            <input type="text" name="question" placeholder="Nhập câu hỏi tại đây" required>
+            <input type="submit" value="Gửi">
+        </form>
+
+        <div id="loading">Đang trả lời...</div>
+
+        {% if answer_parts %}
+            <div class="answer-text">
+                <h3>Trả lời:</h3>
+                <div id="answer-text"></div>
+                <script>
+                    document.getElementById("loading").style.display = "none";
+                    const answerParts = {{ answer_parts | tojson | safe }};
+                    typeAnswerParts(answerParts);
+                </script>
+            </div>
+        {% endif %}
+
+        {% if answer_image %}
+            {% if answer_image is string %}
+                <img src="{{ url_for('static', filename='images/' + answer_image) }}" alt="Hình ảnh">
+            {% elif answer_image is iterable %}
+                {% for img in answer_image %}
+                    <img src="{{ url_for('static', filename='images/' + img) }}" alt="Hình ảnh">
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>
