@@ -64,17 +64,17 @@ def index():
             print("🟢 Cập nhật context:", question)
             answer_parts = [
                 f"<strong>{question.capitalize()} gồm các phần:</strong><br>",
-                "- Sơ đồ nguyên lý<br>",
-                "- Thiết bị sử dụng<br>",
-                "- Nguyên lý làm việc<br>",
-                "- Các bước lắp đặt<br>",
                 "- Mục tiêu bài học<br>",
+                "- Sơ đồ nguyên lý<br>",
+                "- Nguyên lý làm việc<br>",
+                "- Thiết bị sử dụng<br>",
+                "- Các bước lắp đặt<br>",
                 "- Hư hỏng thường gặp<br>",
                 "<em>Bạn muốn xem mục nào?</em>"
             ]
         else:
             context = session.get("context")
-            if any(k in question for k in ["mạch đơn", "mạch kép", "mạch hai động cơ", "mạch hai máy bơm"]):
+            if any(k in question for k in ["mạch đơn", "mạch kép", "mạch hai máy bơm"]):
                 full_query = question
             else:
                 full_query = f"{question} {context}" if context else question
